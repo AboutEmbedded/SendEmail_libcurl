@@ -3,6 +3,9 @@
 This application for Linux OS with Cmake building
 you must create some steps for start
 
+in current time we can send files (checked with files near 10mB) but!!!
+you must play with waiting time (in file email_config.h parameter unsigned int max_attempt_time_)
+
 ##################################
 # 1 step: install libcurl library
 ##################################
