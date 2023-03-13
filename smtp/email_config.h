@@ -27,6 +27,7 @@ namespace Email_CFG
     std::vector<std::string> ccArr_;
     std::string subject_ = "theme";
     std::string msgText_ = "Hello from smtp";
+    std::vector<std::string> file_path_={"../file1.txt", "../file2.txt"};
   };
 
 }
